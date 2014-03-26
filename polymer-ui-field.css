@@ -12,12 +12,12 @@ license that can be found in the LICENSE file.
 }
 
 /*@polyfill :host > polymer-ui-icon*/
-content /content/ polymer-ui-icon {
+::content > polymer-ui-icon {
   margin: 8px;
 }
 
 /*@polyfill :host input*/
-content /content/ input {
+::content input {
   display: block;
   background: transparent;
   border: 0;
@@ -28,11 +28,11 @@ content /content/ input {
 }
 
 /*@polyfill :host input:focus*/
-content /content/ input:focus {
+::content input:focus {
   outline: none;
 }
 
 /*@polyfill :host input::placeholder*/
-content /content/ input::placeholder {
+::content input::placeholder {
   color: #b3b3b3;
 }
